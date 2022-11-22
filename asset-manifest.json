@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-commerce-oculos/static/css/main.424fd1b0.css",
+    "main.js": "/e-commerce-oculos/static/js/main.c928df43.js",
+    "static/js/787.8fb580b0.chunk.js": "/e-commerce-oculos/static/js/787.8fb580b0.chunk.js",
+    "static/media/capa.png": "/e-commerce-oculos/static/media/capa.44a9e1db5439c08db3da.png",
+    "index.html": "/e-commerce-oculos/index.html",
+    "main.424fd1b0.css.map": "/e-commerce-oculos/static/css/main.424fd1b0.css.map",
+    "main.c928df43.js.map": "/e-commerce-oculos/static/js/main.c928df43.js.map",
+    "787.8fb580b0.chunk.js.map": "/e-commerce-oculos/static/js/787.8fb580b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.424fd1b0.css",
+    "static/js/main.c928df43.js"
+  ]
+}
