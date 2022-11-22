@@ -1,0 +1,85 @@
+#produtos{
+  width: 100%;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.produtos{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.produtos figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: calc(50% - 15px);
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+.produtos figure h4{
+  margin: 0;
+  font-size: 32px;
+}
+.produtos figure img{
+  object-fit: contain;
+  width: 80%;
+  min-height: 150px;
+  margin: 30px auto;
+}
+.produtos figure p{
+  margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/*========== LISTA ==========*/
+#produtos ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+#produtos ul li{
+  text-align: left;
+  margin: 5px;
+}
+
+/*========== RESPONSIVO ==========*/
+
+@media (max-width:768px){
+  #produtos{
+    padding: 60px 20px;
+  }
+
+  .produtos figure h4{
+    font-size: 22px;
+  }
+
+  .produtos figure img{
+    max-height: 100px;
+  }
+
+  .produtos figure p{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:550px){
+  #produtos{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .produtos figure{
+    width: 100%;
+  }
+
+  #produtos ul{
+    align-items: flex-start;
+  }
+}

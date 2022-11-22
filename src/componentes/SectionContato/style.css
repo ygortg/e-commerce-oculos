@@ -1,0 +1,64 @@
+#contato{
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  background-color: #05031b;
+}
+
+.links-contato{
+  display: flex;
+  justify-content: center;
+}
+
+.endereco, .redes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.endereco div, .redes div{
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.endereco h4, .redes h4{
+  margin: 10px 0;
+}
+.endereco div img, .redes div img{
+  width: 18px;
+}
+.endereco div p, .redes div p{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/*========== RESPONSIVO ==========*/
+
+@media (max-width:768px){
+  #contato{
+    padding: 60px 20px;
+  }
+}
+
+
+@media (max-width:550px){
+  #contato{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .links-contato{
+    flex-direction: column;
+  }
+
+  .endereco, .redes{
+    align-items: center;
+  }
+
+  .endereco div, .redes div{
+    width: 150px;
+  }
+}
